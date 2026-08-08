@@ -1,5 +1,5 @@
 {% set name = "trame-common" %}
-{% set version = "1.2.6" %}
+{% set version = "1.2.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trame_common-{{ version }}.tar.gz
-  sha256: 77d053a20143e28129eb1fcbd4480012353800ebf2f09c67cd7b5044210811b1
+  sha256: bf31b565f78fb4628e5d2f4cca99041e34f0e31ebe44781c7d015589826e4e0d
 
 build:
   noarch: python
